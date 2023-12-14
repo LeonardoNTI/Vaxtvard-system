@@ -59,6 +59,8 @@ void loop() {
   delay(1000);
 }
 
+//Input: string. Output: skriver stringen på skärmen
+
 void updateOled(String text) {
   oled.firstPage();
   do {
